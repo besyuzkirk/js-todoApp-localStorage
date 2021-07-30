@@ -3,6 +3,7 @@ const input = document.querySelector("#txtTaskName")
 const taskList = document.querySelector("#task-list")
 const todoText = document.querySelector("#todo-text")
 const deleteAllItem = document.querySelector("#btnDeleteAll")
+let items
 
 loadItems()
 eventListeners()
